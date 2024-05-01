@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #cbcbe5;
+}
+
+.container {
+    background-color: lavender;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.month-name {
+    font-size: 30px;
+    margin: 0;
+    background-color: #c1b7b7;
+    padding: 10px;
+}
+
+.day-name,
+.year,
+.time {
+    font-size: 20px;
+}
+
+.date {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
